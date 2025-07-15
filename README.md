@@ -55,21 +55,12 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
 php artisan serve
-⚠️ Assure-toi que ton fichier .env contient :
 
-env
-Copier le code
-APP_URL=http://localhost:8000
-SANCTUM_STATEFUL_DOMAINS=localhost:5173
-CORS_ALLOWED_ORIGINS=http://localhost:5173
 🌐 Frontend (React)
-bash
-Copier le code
 cd agence-immo-react
 npm install
 npm run dev
-📸 Aperçu
-(ajoute ici une ou deux captures d’écran de la page d’accueil, des biens, etc)
+
 
 🙋 Auteur
 👤 Atou Diagne
